@@ -37,6 +37,18 @@ Run these challenges after each module. Output findings as: `module`, `concern`,
 - Are effect sizes clinically meaningful and precisely estimated?
 - Are subgroup analyses credible or exploratory?
 
+## Causal Manuscript Reviewer Panel
+
+Use `references/causal-manuscript-review-panel.md` when a manuscript makes causal, biological mechanism, environmental exposure, survival disparity, mediation, public health policy, or equity/access-to-care claims.
+
+Apply the five-reviewer panel:
+
+- Logical Systems Thinker: causal chain, mediation, treatment variables, direct vs indirect pathways.
+- Framework Alignment Enforcer: claims versus strongest adjusted/imputed/sensitivity evidence.
+- Policy And Impact Strategist: thresholds, exposure measurement, actionability, policy relevance.
+- Equity-Critical Lens: social determinants, screening/access, geography, structural confounding.
+- Meta-Methodology Challenger: high missingness, MICE validity, MNAR risk, complete-case fragility.
+
 ## Survival Review
 
 - Is time origin clinically valid and identical across groups?

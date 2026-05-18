@@ -68,6 +68,7 @@ Use this skill for research support, not medical care. Do not provide patient-sp
 
 8. **Simulate peer review**
    - Read `references/peer-review-modules.md` for module-specific reviewer challenges.
+   - Read `references/causal-manuscript-review-panel.md` when the manuscript contains causal, mechanistic, environmental exposure, survival disparity, mediation, policy, or equity claims.
    - Run review after each module and again on the full draft.
    - Record: concern, severity, likely reviewer wording, evidence needed, proposed fix, and whether the fix was implemented.
 
@@ -116,6 +117,7 @@ For substantial tasks, produce these artifacts or their concise equivalents:
 - `references/citation-integrity.md`: Database-first citation workflow and anti-hallucination checks.
 - `references/citation-search-strategy-expanded.md`: Expanded literature search strategy and evidence-priority routing.
 - `references/peer-review-modules.md`: Reviewer challenge prompts for every module.
+- `references/causal-manuscript-review-panel.md`: Five-reviewer adversarial panel for causal, mediation, policy, equity, and missing-data fragility claims.
 - `scripts/clinical_stats.py`: Standard-library CSV statistics runner for missingness, Table 1, Welch t-test, chi-square/Fisher exact, and 2x2 effects.
 - `scripts/advanced_stats.py`: Dependency-aware advanced statistics runner for regression, Cox survival, GEE, imputation, propensity scores, and prediction metrics.
 - `assets/peer_review_matrix_template.md`: Reusable review table.

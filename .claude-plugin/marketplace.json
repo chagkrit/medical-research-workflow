@@ -8,13 +8,13 @@
   "metadata": {
     "description": "Audit-ready medical research workflow for data preparation, statistics, manuscript writing, verified citations, peer review simulation, language refinement, and journal strategy.",
     "version": "1.0.0",
-    "pluginRoot": "."
+    "pluginRoot": "./medical-research-workflow"
   },
   "plugins": [
     {
       "name": "medical-research-workflow",
       "version": "1.0.0",
-      "source": ".",
+      "source": "./medical-research-workflow",
       "description": "Audit-ready medical research workflow for data preparation, cleaning, missing-data management, deterministic statistics, manuscript writing, verified citations, peer review simulation, language refinement, and journal strategy.",
       "keywords": [
         "medical-research",

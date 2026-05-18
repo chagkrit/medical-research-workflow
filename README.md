@@ -15,6 +15,7 @@ Claude marketplace/local plugin and Codex skill for an audit-ready medical resea
 
 Claude plugin installers should use:
 
+- `.claude-plugin/marketplace.json` - marketplace repository manifest.
 - `.claude-plugin/plugin.json` - marketplace/plugin metadata.
 - `.mcp.json` - optional scholarly MCP server declarations.
 - `skills/medical-research-workflow/SKILL.md` - installable Claude skill.

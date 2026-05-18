@@ -1,0 +1,35 @@
+{
+  "name": "medical-research-workflow-marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace repository for the Medical Research Workflow Claude plugin.",
+  "owner": {
+    "name": "Chagkrit"
+  },
+  "metadata": {
+    "description": "Audit-ready medical research workflow for data preparation, statistics, manuscript writing, verified citations, peer review simulation, language refinement, and journal strategy.",
+    "version": "1.0.0",
+    "pluginRoot": "."
+  },
+  "plugins": [
+    {
+      "name": "medical-research-workflow",
+      "version": "1.0.0",
+      "source": ".",
+      "description": "Audit-ready medical research workflow for data preparation, cleaning, missing-data management, deterministic statistics, manuscript writing, verified citations, peer review simulation, language refinement, and journal strategy.",
+      "keywords": [
+        "medical-research",
+        "clinical-research",
+        "statistics",
+        "manuscript",
+        "peer-review",
+        "citation-verification",
+        "survival-analysis",
+        "propensity-score",
+        "diagnostic-accuracy"
+      ],
+      "author": {
+        "name": "Chagkrit"
+      }
+    }
+  ]
+}

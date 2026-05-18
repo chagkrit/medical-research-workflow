@@ -1,12 +1,33 @@
 # medical-research-workflow
 
-Codex skill for an audit-ready medical research workflow: data preparation, data cleaning, missing-data management, statistical analysis, manuscript writing, verified citations, and simulated peer review.
+Claude marketplace/local plugin and Codex skill for an audit-ready medical research workflow.
 
-Core files:
+## What It Does
 
-- `SKILL.md` - master workflow and routing.
+- Data preparation, cleaning, missing-data management, and variable coding.
+- Deterministic first-pass and advanced statistical scripts.
+- Statistical judgment gates for formula, coding, assumptions, convergence, confounding, and claim strength.
+- Manuscript writing, reporting guideline alignment, language refinement, and journal strategy.
+- Verified citation workflow with anti-hallucination rules.
+- Simulated peer review, including a causal manuscript reviewer panel.
+
+## Claude Marketplace Layout
+
+Claude plugin installers should use:
+
+- `.claude-plugin/plugin.json` - marketplace/plugin metadata.
+- `.mcp.json` - optional scholarly MCP server declarations.
+- `skills/medical-research-workflow/SKILL.md` - installable Claude skill.
+- `skills/medical-research-workflow/references/` - deep workflow modules.
+- `skills/medical-research-workflow/scripts/` - deterministic analysis scripts.
+
+## Codex Layout
+
+The root-level `SKILL.md`, `references/`, `scripts/`, `assets/`, and `agents/` are kept for direct Codex skill use.
+
+## Core Scripts
+
 - `scripts/clinical_stats.py` - deterministic first-pass CSV statistics.
 - `scripts/advanced_stats.py` - regression, GEE, Cox survival, imputation, propensity, and prediction workflows.
-- `references/` - deep modules for methods, reporting, citation integrity, manuscript development, peer review, language refinement, and journal strategy.
 
 This skill is for research support, not patient-specific medical advice.

@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "pubmed": {
+      "type": "url",
+      "url": "https://pubmed.mcp.claude.com/mcp",
+      "description": "Search biomedical literature from PubMed for verified medical citations."
+    },
+    "consensus": {
+      "type": "url",
+      "url": "https://mcp.consensus.app/mcp",
+      "description": "Explore scientific consensus for evidence checks and claim verification."
+    },
+    "scholar-gateway": {
+      "type": "url",
+      "url": "https://connector.scholargateway.ai/mcp",
+      "description": "Search scholarly research discovery sources, then verify final citations through authoritative identifiers."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Medical Research Workflow"
+  short_description: "Rigorous medical research workflow"
+  default_prompt: "Use $medical-research-workflow to run a medical research project from data preparation through verified citations and simulated peer review."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,19 @@
+{
+  "name": "medical-research-workflow",
+  "version": "1.0.0",
+  "description": "Audit-ready medical research workflow for data preparation, cleaning, missing-data management, deterministic statistics, manuscript writing, verified citations, peer review simulation, language refinement, and journal strategy.",
+  "author": {
+    "name": "Chagkrit"
+  },
+  "keywords": [
+    "medical-research",
+    "clinical-research",
+    "statistics",
+    "manuscript",
+    "peer-review",
+    "citation-verification",
+    "survival-analysis",
+    "propensity-score",
+    "diagnostic-accuracy"
+  ]
+}
